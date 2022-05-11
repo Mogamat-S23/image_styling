@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    height:auto ;
+    width: 80%;
+    display: block;
+    margin: 40px auto;
+    border: 5px solid rgba(118, 101, 8, 0.4);
+    /* border-radius: 20%; */
+    border-bottom-right-radius: 20% ;
+    border-top-left-radius: 20%;
+    /* opacity: 0.2; */
+    box-shadow: 1px 1px 1px 5px rgba(118, 101, 46, 0.4) , 1px 1 px 5px red;
+}
+
+#container{
+    width: 20vw;
+    height: 40vh;
+    background-color: darkcyan;
+    margin: 40px auto;
+    flex-direction: column;
+    position: relative;
+}
+
+#logo, #description{
+    position: absolute;
+    margin: 0;
+}
+
+#logo{
+    top: 0;
+    left: 0;
+}
+
+ #description {
+    position: absolute;
+    bottom: 0;
+}
+
+#container #description p{
+    text-align: center;
+}
+
+@media screen {
+    
+}
